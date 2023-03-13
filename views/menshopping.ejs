@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Filter And Search</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link href="menshoppingdesign.css" rel="stylesheet" type="text/css" />
+
+    </head>
+   <body>
+    
+<div class="topnav">
+  <form action="/home" method="get">
+    <button type="submit">home</button>
+  </form>
+  <form action="/menshopping" method="get">
+    <button type="submit">Men</button>
+  </form>
+  <form action="/womenshopping" method="get">
+    <button type="submit">Women</button>
+  </form>
+  <input type="text" placeholder="Search..">
+</div>
+     
+
+      
+<div class="wrapper">
+  <div id="search-container">
+    <input
+    type="search"
+    id="search-input"
+    placeholder="Search product name here.."
+    />
+    <button id="search">Search</button>
+  </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('shoes')">
+          shoes
+        </button>
+        <button class="button-value" onclick="filterProduct('Topwear')">
+          Topwear
+        </button>
+        <button class="button-value" onclick="filterProduct('Bottomwear')">
+          Bottomwear
+        </button>
+        <button class="button-value" onclick="filterProduct('Jackets')">
+          Jackets
+        </button>
+      </div>
+      <div id="products"></div>
+    </div>
+
+  
+<!-- רשימה של יצרת קישור וקישור לעמוד אינסטגרם -->
+<div id="example3">
+  <ul>
+  <li style="color: white";><u>Contact us</u></li>
+  <li style="color: white";><u>Our instagram</u></li>
+  <li style="color: white";><u>Help</u></li>
+</ul>
+  </div>
+<!-- Script -->
+    <script src="menshopping.js"></script>
+     
+    </body>
+</html>

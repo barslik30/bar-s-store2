@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- תמונת רקע -->
+ <img src="/statics/backgroundimage2.jpg" width="1520px" height="50px">
+
+<!-- סרגל צד -->  
+<div class="topnav">
+  <form action="/home" method="get">
+    <button type="submit">home</button>
+  </form>
+  <form action="/menshopping" method="get">
+    <button type="submit">Men</button>
+  </form>
+  <form action="/womenshopping" method="get">
+    <button type="submit">Women</button>
+  </form>
+  <form action="/checkout" method="get">
+    <button type="submit">Checkout</button>
+  </form>
+  <input type="text" placeholder="Search..">
+</div>
+
+  <!-- כיתוב על תמונת רקע -->
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>KEEP IT SIMPLE</h1>
+    <p>ULTRABOSST</p>
+  </div>
+</div><br><br><br>
+  
+<!-- כותרת -->
+<h3 class="header1"><u>FOR WHO DO YOU SHOP?</u></h3><br>
+  
+<!-- תמונות של גבר אישה וילד על כפתור למעבר -->
+<div class="row">
+  <div class="column">
+    <img src="adidasfemale2.jpg" alt="Snow" style="width:100%" height="400px">
+    <form action="/womenshopping" method="get">
+      <button class="center1">WOMEN</button><
+    </form>
+  </div>
+  <div class="column">
+    <img src="adidaskids2.jpg" alt="Forest" style="width:100%" height="400px">
+    <button class="center2">KIDS</button>
+  </div>
+  <div class="column">
+    <img src="adidasmale.jpg" alt="Mountains" style="width:100%" height="400px"></img>
+    <a href="/menshopping"><button class="center3">MAN</button></a>
+  </div>
+</div><br><br>
+  
+<!-- כותרת -->
+<h3 class="header3"><u>OUR TOP PRODUCTS</u></h3><br><br>
+
+
+<!-- תמונות של מוצרים עם כפתור עליהם לרכישה -->
+<div class="row">
+  <div class="product1">
+    <img src="adidassuperstar.webp" alt="Snow"  style="width:86%" >
+    <form action="/add_card" method="post">
+      <input type="hidden" name="product_name" value="ADIDAS ULTRABO-1">
+      <input type="hidden" name="product_price" value=150>
+      <button class="productbutton1">Add Card</button>
+    </form>
+    <p >ADIDAS ULTRABO-1<br><span style="color: red;">150$</span></p></img>
+  </div>
+  <div class="product2">
+    <img src="adidasultraboost.webp" alt="Forest" style="width:86%" >
+    <form action="/add_card" method="post">
+      <input type="hidden" name="product_name" value="ADIDAS ULTRABOOST X-1">
+      <input type="hidden" name="product_price" value=100>
+      <button class="productbutton2">Add Card</button>
+    </form>
+    <p >ADIDAS ULTRABOOST X-1<br><span style="color: red;">100$</span></p>
+  </img>
+  </div>
+
+  <div class="product3">
+    <img src="adidasultraboost2.webp" alt="Mountains" style="width:86%" >
+    <form action="/add_card" method="post">
+      <input type="hidden" name="product_name" value="ADIDAS  X-3">
+      <input type="hidden" name="product_price" value=70>
+      <button class="productbutton3">Add Card</button>
+    </form>
+    <p >ADIDAS UADIDAS  X-3<br><span style="color: red;">70$</span></p>
+  </img>
+  </div>
+  <div class="product4">
+    <img src="adidassuperstar.webp" alt="Snow" style="width:86%" >
+    <form action="/add_card" method="post">
+      <input type="hidden" name="product_name" value="ADIDAS SUPERSTAR X-1">
+      <input type="hidden" name="product_price" value=100>
+      <button class="productbutton4">Add Card</button>
+    </form>
+    <p >ADIDAS SUPERSTAR X-1<br><span style="color: red;">93$</span></p>
+  </img>
+  </div>
+</div><br><br><br>
+
+  
+<!-- רשימה של יצרת קישור וקישור לעמוד אינסטגרם -->
+<div id="example3">
+  <ul>
+  <li style="color: white";><u>Contact us</u></li>
+  <li style="color: white";><u>Our instagram</u></li>
+  <li style="color: white";><u>Help</u></li>
+</ul>
+  </div>
+
+
+
+<script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script>
+  <script src="servers.js"></script>
+
+</body>
+</html>

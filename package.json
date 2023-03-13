@@ -1,0 +1,33 @@
+{
+  "name": "barstore",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000P\u0000e\u0000r\u0000n\u0000i\u0000c\u0000h\u0000i\u0000s\u0000-\u0000S\u0000t\u0000o\u0000r\u0000e\u0000\r\u0000 \u0000",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barslik30/Pernichis-Store.git"
+  },
+  "author": "Bar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barslik30/Pernichis-Store/issues"
+  },
+  "homepage": "https://github.com/barslik30/Pernichis-Store#readme",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.21",
+    "path": "^0.12.7"
+  }
+}
